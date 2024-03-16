@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(234, 29%, 20%);
+    margin: 5rem;
+}
+
+.first_container{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    width:45%;
+    border-radius: 1.5rem;
+    margin-left: 15rem;
+}
+
+.Fir_Icon{
+    display: flex;
+    padding: 0.5rem;
+}
+.p_icon p{
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.all_text{
+    margin: 3rem;
+    padding-right: 0.5rem;
+    /* padding-top: 3rem; */
+    /* padding-bottom: 5rem; */
+
+}
+.sign_img img{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+#stay{
+    color: hsl(234, 29%, 20%);
+    padding-bottom: 0.7rem;
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal; */
+  }
+
+  #join{
+    padding-bottom: 1rem;
+    /* padding-top: 1rem; */
+    width: 125%;
+    /* width: 23rem; */
+  }
+
+  #mail_add{
+    padding-bottom: 2rem;
+  }
+
+  input{
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;  
+   }
+   
+   input:active{
+     background-color: hsl(4, 100%, 67%);   
+   }
+   
+   .btn_class{
+    padding: 0.8rem;
+    width: 100%;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   }
+
+   .Icon_all{
+    padding-bottom: 2rem;
+   }
+
+
+   .second_container{
+    background-color: white;
+    padding:3rem;
+    margin: 20rem;
+    padding-left: 3rem;
+    margin-right: 70rem;
+    border-radius: 1.5rem;
+    display: none;
+    position: relative;
+    left: 20rem;
+    width: 20%;
+   }
+
+   
+   
+   .second_container h1{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    color: hsl(234, 29%, 20%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+  }
+  
+  .second_container p{
+    padding-bottom: 2rem;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #btn-2 {
+    padding: 0.8rem;
+    width: 100%;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .btn_class:active{
+    background-color: hsl(4, 100%, 67%);    
+  }
+
+  #errormessage{
+    color: hsl(4, 100%, 67%);
+    margin-left: 10rem;
+    display: none;
+  }
+
+  @media screen and (max-width:375px){
+    body{
+        background-color:  hsl(234, 29%, 20%);
+        margin: 5rem;
+    }
+
+    .first_container{
+        display:block;
+        background-color: white;
+        width:400px;
+        border-radius: 1.5rem;
+        margin-left: 1rem;
+    }
+  }

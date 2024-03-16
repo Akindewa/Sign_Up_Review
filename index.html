@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="review.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>SIGN_UP_REVIEW</title>
+</head>
+<body>
+      <div  id="mainwrapper" class="wrapper">
+            <div class="first_container">
+                   <div class="all_text">
+                        <h1 id="stay">Stay updated!</h1>
+                        <p id="Join">Join 60,000+ product managers receiving monthly updates on:</p>
+
+
+                        <div class="Icon_all">
+
+                            <div class="Fir_Icon">
+                                <img src="icon-list.svg" alt="Icon">
+                                  <div class="p_icon">
+                                       <p>Product discovery and building what matters</p>
+                                  </div>
+                            </div>
+
+                            <div class="Fir_Icon">
+                                <img src="icon-list.svg" alt="">
+                                  <div class="p_icon">
+                                       <p> Measuring to ensure updates are a success</p>
+                                  </div>
+                            </div>
+
+                            <div class="Fir_Icon">
+                                <img src="icon-list.svg" alt="">
+                                  <div class="p_icon">
+                                       <p>And much more!</p>
+                                  </div>
+                            </div>
+                        </div>
+
+                            <form class="">
+                                <label id="mail_add">Email address</label> <br>
+                                <span id="errormessage">Valid email required</span>
+                                <input type="email" id="mail" placeholder=" email@company.com">
+                                
+                            </form> 
+                                <button id="btn" type="button" onclick="Validateform()" class="btn_class">Subscribe to monthly newsletter</button>
+                        </div>
+
+                   <div class="sign_img">
+                        <img src="illustration-sign-up-desktop.svg" alt="Icon">
+                   </div>
+                </div>
+            </div>
+           
+
+
+
+                <div id="secwrapper" class="second_container">
+                    <img src="icon-success.svg" alt="">
+                    <h1>Thanks for <br>subscribing!</h1>
+                    <p>A confirmation email has been sent to <span id="useremail"></span>
+                      Please open it and click the button inside to confirm your subscription.
+                    </p>
+                    <button id="btn-2" type="button" onclick="returnButton()">Dismiss message</button>
+                  </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <script src="review.js"></script>
+</body>
+</html>
