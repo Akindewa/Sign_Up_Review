@@ -30,8 +30,6 @@ body{
 .all_text{
     margin: 3rem;
     padding-right: 0.5rem;
-    /* padding-top: 3rem; */
-    /* padding-bottom: 5rem; */
 
 }
 .sign_img img{
@@ -43,16 +41,14 @@ body{
 #stay{
     color: hsl(234, 29%, 20%);
     padding-bottom: 0.7rem;
-    /* font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal; */
+    font-style: normal;
   }
 
   #join{
     padding-bottom: 1rem;
-    /* padding-top: 1rem; */
     width: 125%;
-    /* width: 23rem; */
   }
 
   #mail_add{
